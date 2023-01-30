@@ -1,0 +1,7 @@
+apiVersion: cache.operator-sdk-ex.com/v1alpha1
+kind: Memcached
+metadata:
+  name: memcached-v1alpha1
+  namespace: memcached
+spec:
+  size: 3

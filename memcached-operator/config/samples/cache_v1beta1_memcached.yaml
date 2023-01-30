@@ -1,0 +1,7 @@
+apiVersion: cache.operator-sdk-ex.com/v1beta1
+kind: Memcached
+metadata:
+  name: memcached-v1beta1
+  namespace: memcached
+spec:
+  replicaSize: 3
